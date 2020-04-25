@@ -1,0 +1,25 @@
+{
+  "name": "bmicalculator",
+  "version": "1.0.0",
+  "description": "BMI Calculator",
+  "main": "bmi-calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maduoma/expressjs/bmicalculator.git"
+  },
+  "keywords": [
+    "bmi"
+  ],
+  "author": "Maduabughichi Achilefu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maduoma/expressjs/bmicalculator/issues"
+  },
+  "homepage": "https://github.com/maduoma/expressjs/bmicalculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

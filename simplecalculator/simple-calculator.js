@@ -4,9 +4,9 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-//Home Page
+//Home Page containing the simple-calculator
 app.get("/", function(req, res){
-    res.sendFile(__dirname +"/simplecalculator.html");
+    res.sendFile(__dirname +"/simple-calculator.html");
 });
 //Retries information from the form, 
 //does the calculation and displays same to the Home Page
@@ -18,8 +18,8 @@ app.post("/", function (req, res) {
 });
 
 //Server started on port 3001
-app.listen(3001, function(){
-    console.log("Server is running at http://localhost:3001");
+app.listen(3000, function(){
+    console.log("Server is running at http://localhost:3000");
 });
 
 
